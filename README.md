@@ -18,6 +18,10 @@ c. string이 아니면 비어있는 값 추가( 비어있는 데이터에서 멈
 d. 모델에 대입, 예측값 갱성, 결과txt파일 생성
 
 ### ㄷ. train 데이터와 dev 데이터의 정확도
+test.txt. 의 accuracy<br/>
+![test acc](https://user-images.githubusercontent.com/66713459/103552401-351a5300-4eef-11eb-8820-d0eb859e2720.jpg) <br/>
+accuracy : 96% <br/>
+validation accuracy : 약 88%<br/>
 
 prediction.py의 
 ~~~
@@ -43,16 +47,18 @@ dev 데이터 정확도 : 약 64.34% <br/>
 # 2. docker 사용시 명령어 순서대로 나열
 필요한 모듈 : 첨부된 requirements.txt 사용
 docker 사용을 가정하고 명령어를 순서대로 입력
-
-~~~
-pip install -r requirements.txt
-~~~
 ~~~
 apt-get install openjdk-8-jdk python-dev 
+~~~
+~~~
+apt-get install python3-dev
+~~~
+~~~
+pip install -r requirements.txt
 ~~~
 ~~~
 python train.py
 ~~~
 ~~~
 python prediction.py
-~~~
+~~~~~~
