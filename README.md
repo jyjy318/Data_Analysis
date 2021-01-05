@@ -16,8 +16,8 @@ f. 학습된 모델 저장(h5파일) <br/>
 a. train.py 에서 사용된 변수들을 import <br/>
 b. 데이터 전처리 <br/>
 c. string이 아니면 비어있는 값 추가( 비어있는 데이터에서 멈추지 않도록) <br/>
-d. 사전에 학습된 h5추론파일 load
-e. 모델에 대입, 예측값 갱성, 결과txt파일 생성
+d. 사전에 학습된 h5추론파일 load <br/>
+e. 모델에 대입, 예측값 갱성, 결과txt파일 생성 <br/>
 
 ### ㄷ. train 데이터와 dev 데이터의 정확도
 test.txt. 의 accuracy<br/>
