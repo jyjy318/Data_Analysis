@@ -60,4 +60,4 @@ pip install -r requirements.txt
 ~~~
 ~~~
 python prediction.py
-~~~~~~
+~~~
